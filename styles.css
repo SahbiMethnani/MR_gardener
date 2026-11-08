@@ -517,7 +517,6 @@ textarea.form-control {
   }
 }
 
-/* Correctif : badge lisible sur les cartes d'offre claires */
 .offer-card:not(.featured) .offer-badge {
   background: var(--green-100);
   color: var(--green-700);
@@ -531,8 +530,15 @@ textarea.form-control {
   color: rgba(255, 255, 255, 0.9);
 }
 
-/* Correctif : le bouton secondaire est illisible sur fond clair (hors hero et carte vedette) */
 .offer-card:not(.featured) .btn-secondary-custom {
   color: var(--green-700);
   border-color: var(--green-700);
 }
+gmp-map {
+      height: 400px;
+      width: 100%;
+    }
+    .fa-phone {
+      font-size: 28px;
+      color: #2b7cff;
+    }
